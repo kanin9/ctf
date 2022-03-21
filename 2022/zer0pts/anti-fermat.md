@@ -69,6 +69,6 @@ print(long_to_bytes(pow(c, d, n)))
 ```
 ![image](https://user-images.githubusercontent.com/101967194/159232684-9a1bfb65-7283-4843-8f83-7c130c586c15.PNG)
 
-Ta-daaa!
+Ta-daaa! 🥳
 
 `zer0pts{F3rm4t,y0ur_m3th0d_n0_l0ng3r_w0rks.y0u_4r3_f1r3d}`
