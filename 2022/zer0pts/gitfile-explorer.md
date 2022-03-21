@@ -4,6 +4,8 @@
 
 *Read /flag.txt on the server.*
 
+[Challenge download file](https://github.com/kanin9/ctf/files/8313820/explorer.zip)
+
 Challenge site: http://gitfile.ctf.zer0pts.com:8001/
 
 ![image](https://github.com/kanin9/ctf/blob/main/2022/zer0pts/images/a.png)
