@@ -31,18 +31,22 @@ print('c = {}'.format(hex(c)))
 > 
 > c = 0x60160bfed79384048d0d46b807...
 
+
 Now, we can deduce that q is slightly above (2<sup>1024</sup>-1) xor P. On average it is 12 lower bits that differ.
 With this information we can bruteforce factors of N, if we rewrite our Q as (2<sup>1024</sup> - 1 - P + error), we can factorize N only using P
 and error value which we will increment through 0 to 2<sup>13</sup>
+
 
 > P((2<sup>1024</sup>-1) - P + error) = N
 > 
 > -P<sup>2</sup> + (error+2<sup>1024</sup>-1)P - N = 0
 
+
 ```from Crypto.Util.number import long_to_bytes
 from gmpy2 import next_prime
 from values import n, c, modinv
 from math import isqrt
+
 
 P = 0
 e = 65537
