@@ -8,14 +8,13 @@
 
 Challenge site: http://gitfile.ctf.zer0pts.com:8001/
 
-![image](https://github.com/kanin9/ctf/blob/main/2022/zer0pts/images/a.png)
-
+![image](https://user-images.githubusercontent.com/101967194/159223046-5777bfed-fd37-453f-9655-3a4f813d1f3f.png)
 
 It looks like a simple website which allows us to *download files on GitHub/GitLab/BitBucket*
 
 Upon clicking on the Download button, a request to  this url is made https://raw.githubusercontent.com/ptr-yudai/ptrlib/master/README.md and the response of the url is shown in the textarea.
 
-![image](https://github.com/kanin9/ctf/blob/main/2022/zer0pts/images/b.png)
+![image](https://user-images.githubusercontent.com/101967194/159223111-4084ff2d-2826-4bbf-ba48-5a8f5032c0d4.png)
 
 We now have  a basic understanding of the website , let see what we can do here to read the `/flag.txt` file.
 
